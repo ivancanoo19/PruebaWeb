@@ -1,0 +1,58 @@
+:root{
+    --primario: #014c40;
+    --rojo: #D12626;
+    --blanco: #FFF;
+    --negro: #000;
+    --fuentePrincipal: 'Josefin Sans', sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+p{
+    font-size: 1.6rem;
+    font-family: var(--fuentePrincipal);
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1, h2{
+    text-align: center;
+    color: var(--negro);
+    font-family: var(--fuentePrincipal);
+}
+
+/* Definir el tamaño de fuente de cada uno de los headers*/
+
+h1{
+    font-size: 3.5rem;
+}
+
+h3{
+    color: var(--primario);
+    font-family: var(--fuentePrincipal);
+    text-align: initial;
+    margin: 0 auto;
+}
